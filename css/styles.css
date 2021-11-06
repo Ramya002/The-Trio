@@ -46,14 +46,13 @@ body, html{
   }
   
   .pimg1{
-    background-image:url('https://images.unsplash.com/photo-1563941406054-949225931d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-image:url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     min-height:85%;
     background-size: cover;
-	
   }
   
   .pimg2{
-    background-image:url('https://img.freepik.com/free-photo/colorful-paper-notes-with-question-marks-closeup_79075-8199.jpg?size=626&ext=jpg');
+    background-image:url('https://media.istockphoto.com/photos/concept-of-to-find-a-creative-idea-or-problem-solving-question-mark-picture-id1264262221?b=1&k=20&m=1264262221&s=170667a&w=0&h=pb4cNLFxGkKi8XHaMpocdDq5g8pLA47DmVoUfB7MyJg=');
     min-height:400px;
   }
   
@@ -111,14 +110,15 @@ body, html{
     text-align:center;
     padding:50px 80px;
   }
+  
   .section-light{
-    background-color:#03AC13;
+    background-color:#00868B;
     color:#ddd;
   }
   
   .section-dark{
     /*background-color:#282e34;*/
-    background-color:#03AC13;
+    background-color:#00868B;
     color:#ddd;
   }
 
@@ -127,7 +127,7 @@ body, html{
   }
   
   .ptext{
-    position:absolute;	
+    position:absolute;
     top:20%;
     left: -25%;
     width:100%;
@@ -162,19 +162,6 @@ body, html{
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   }
-  
-  /*.p1text{
-	padding: 20px;  
-	position: absolute;
-    top: 50%;
-    left: 43%;
-    transform: translate(-10%, -10%);
-    font-family: Soria;
-    font-size: 65px;
-	text-align:center;
-	line-height: 1.6;
-	
-}*/
 
   #text1{
     position: absolute;
@@ -182,9 +169,8 @@ body, html{
   }
 
   .ptext {
-    color: #680C07;
+    color: #580858;
     padding:20px;
-	
   }
   
   .ptext .border.trans{
@@ -213,8 +199,8 @@ body, html{
   position: absolute;
   top: 390%;
   right: 55%;
-  
 }
+
 
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
