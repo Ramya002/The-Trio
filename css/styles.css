@@ -163,7 +163,7 @@ body, html{
   -moz-text-fill-color: transparent;
   }
   
-  .p1text{
+  /*.p1text{
 	padding: 20px;  
 	position: absolute;
     top: 50%;
@@ -174,7 +174,7 @@ body, html{
 	text-align:center;
 	line-height: 1.6;
 	
-}
+}*/
 
   #text1{
     position: absolute;
