@@ -8,9 +8,11 @@ body, html{
     color:green;
   }
 
-a{
-color: white;
-}
+ #anchor1{
+    color: white;
+  }
+
+
   #p1::selection,#h21::selection,.ptext::selection{
     background-color: #dc143c;
   }
