@@ -4,9 +4,7 @@
   font-family:"Lato", sans-serif;
 }
 
-body {
-  padding: 10px;
-  margin: 20px;
+body {    
   justify-content: center;
   align-items: center;
   background-image: url("https://biacon.net/wp-content/uploads/2019/02/registration-form-background-images-7.jpg") ;
@@ -20,4 +18,9 @@ h1 {
 
 h2 {
   padding-bottom: 20px;
+}
+
+form {
+  padding: 10px;
+  margin: 20px;
 }
