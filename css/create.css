@@ -13,3 +13,11 @@ body {
   background-repeat:no-repeat;
   background-size:cover;
 }
+
+h1 {
+  padding-bottom: 50px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
