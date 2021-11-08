@@ -1,0 +1,28 @@
+.type{
+  color:blue;
+  font-weight:bold;
+}
+.car mb-2{
+  height:10px;
+}
+.heading{
+  padding-bottom:40px;
+}
+body{
+  background-image:url('https://images.unsplash.com/photo-1562575214-da9fcf59b907?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=386&q=80');
+background-repeat:no-repeat;
+background-size:cover;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: mistyrose;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: lightblue; 
+    opacity: 0.70;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
