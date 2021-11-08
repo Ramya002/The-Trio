@@ -1,0 +1,15 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+}
+
+body {
+  padding: 10px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://biacon.net/wp-content/uploads/2019/02/registration-form-background-images-7.jpg") ;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
