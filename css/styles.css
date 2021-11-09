@@ -124,14 +124,9 @@ body, html{
     text-align:center;
     padding:50px 80px;
   }
-  .section-light{
-    background-color:#03AC13;
-    color:#ddd;
-  }
-  
-  .section-dark{
-    /*background-color:#282e34;*/
-    background-color:#03AC13;
+
+  .section-light, .section-dark {
+    background-color:#282e34;
     color:#ddd;
   }
 
