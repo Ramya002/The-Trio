@@ -84,7 +84,7 @@
 	 content: "";
 	 width: 3px;
 	 height: 100%;
-	 background: #ee4d4d;
+	 background: #03C04A;
 	 left: 50%;
 	 top: 0;
 	 position: absolute;
@@ -100,7 +100,7 @@
 	 position: relative;
 }
  #timeline .timeline-item .timeline-icon {
-	 background: #ee4d4d;
+	 background: #03C04A;
 	 width: 50px;
 	 height: 50px;
 	 position: absolute;
@@ -137,7 +137,7 @@
 }
  #timeline .timeline-item .timeline-content h2 {
 	 padding: 15px;
-	 background: #ee4d4d;
+	 background: #03C04A;
 	 color: #fff;
 	 margin: -20px -20px 0 -20px;
 	 font-weight: 300;
@@ -165,14 +165,14 @@
 	 right: 45%;
 	 left: inherit;
 	 border-left: 0;
-	 border-right: 7px solid #ee4d4d;
+	 border-right: 7px solid #03C04A;
 }
  .btn {
 	 padding: 5px 15px;
 	 text-decoration: none;
 	 background: transparent;
-	 border: 2px solid #f27c7c;
-	 color: #f27c7c;
+	 border: 2px solid #03C04A;
+	 color: #03C04A;
 	 display: inline-block;
 	 position: relative;
 	 text-transform: uppercase;
@@ -185,10 +185,10 @@
 	 -moz-transition: background 0.3s ease;
 	 -ms-transition: background 0.3s ease;
 	 transition: background 0.3s ease;
-	 -webkit-box-shadow: 2px 2px 0 #f27c7c;
-	 -moz-box-shadow: 2px 2px 0 #f27c7c;
-	 -ms-box-shadow: 2px 2px 0 #f27c7c;
-	 box-shadow: 2px 2px 0 #f27c7c;
+	 -webkit-box-shadow: 2px 2px 0 #03C04A;
+	 -moz-box-shadow: 2px 2px 0 #03C04A;
+	 -ms-box-shadow: 2px 2px 0 #03C04A;
+	 box-shadow: 2px 2px 0 #03C04A; //F27C7C
 }
  .btn:hover {
 	 box-shadow: none;
@@ -216,12 +216,26 @@
 		 left: 10%;
 		 margin-left: -6px;
 		 border-left: 0;
-		 border-right: 7px solid #ee4d4d;
+		 border-right: 7px solid #03C04A;
 	}
 	 #timeline .timeline-item .timeline-icon {
 		 left: 0;
 	}
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: mistyrose;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: lightblue; 
+    opacity: 0.70;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
 
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
