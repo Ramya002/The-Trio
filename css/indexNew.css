@@ -1,0 +1,241 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:green;
+  }
+
+ #p3{
+    font-size: 22px;
+}
+
+ #anchor1{
+    color: white;
+  }
+
+
+  #p1::selection,#h21::selection,.ptext::selection{
+    background-color: #dc143c;
+  }
+
+  #p2::selection,#p3::selection,.hst::selection,h3::selection,.border::selection,a::selection{
+    background-color: #dc143c;
+    color: #666;
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: mistyrose;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: lightblue; 
+    opacity: 0.70;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+  
+  .pimg1, .pimg2, .pimg3,.pimg4{
+    position:relative;
+    /opacity:0.50;/
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+
+  #image{
+ 	size: 10px;
+}
+  
+  .pimg1{
+    background-image:url('https://images.unsplash.com/photo-1563941406054-949225931d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    min-height:85%;
+    background-size: cover;
+	
+  }
+  
+  .pimg2{
+    background-image:url('https://img.freepik.com/free-photo/colorful-paper-notes-with-question-marks-closeup_79075-8199.jpg?size=626&ext=jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/23/Family_playing_a_board_game_(2).jpg');
+    min-height:400px;
+  }
+
+  .pimg4{
+    background-image:url('https://media.istockphoto.com/photos/well-keep-on-winning-as-long-as-we-work-together-picture-id1266865934?b=1&k=20&m=1266865934&s=170667a&w=0&h=K0IA_gRP-6D05bnsxWAWjNmFl_EPZ-fzkoGvPxNY8KU=');
+    min-height:500px;
+  }
+  
+  #connect{
+    position: absolute;
+    right: -30%;
+    top: 20%;
+  }
+
+  .footer-copyright{
+    position: absolute;
+    top: 85%;
+    right: -5%;
+  }
+
+  .fb-ic{
+    position: absolute;
+    top: 35%;
+    right: 2%;
+    color: #3b5998;
+  }
+
+  .li-ic{
+    position: absolute;
+    top: 35%;
+    right: -13%;
+    color: #0e76a8;
+  }
+
+  .tw-ic{
+    position: absolute;
+    top: 35%;
+    right: -28%;
+    /color: #00acee;/
+  }
+
+  .in-ic{
+    position: absolute;
+    top: 35%;
+    right: -42%;
+    color: #8a3ab9;
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  .section-light{
+    background-color:#03AC13;
+    color:#ddd;
+  }
+  
+  .section-dark{
+    /*background-color:#282e34;*/
+    background-color:#03AC13;
+    color:#ddd;
+  }
+
+  .col-md-6{
+    top: -70%;
+  }
+  
+  .ptext{
+    position:absolute;	
+    top:20%;
+    left: -25%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:20px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .p1text::selection{
+    background-color: #dc143c;
+    color: #dc143c;
+  }
+
+  .p1text{
+    padding: 20px;  
+    position: absolute;
+    left: 36%;
+    font-family: LimeLight;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 60px;
+    background-image: linear-gradient(90deg, lightsalmon, crimson);
+    background-size: 100%;
+    background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  }
+  
+  /*.p1text{
+	padding: 20px;  
+	position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-10%, -10%);
+    font-family: Soria;
+    font-size: 65px;
+	text-align:center;
+	line-height: 1.6;
+	
+}*/
+
+  #text1{
+    position: absolute;
+    top: 130px;
+  }
+
+  .ptext {
+    color: #5E1916;
+    padding:20px;
+	
+  }
+.p1small{
+  color:#FFFADA;
+  font-weight:bold;
+}
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+
+  .container-fluid{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+
+.btn-outline-danger{
+  position: absolute;
+  top: 600%;
+  right: 46%;
+}
+
+.btn-danger{
+  position: absolute;
+  top: 600%;
+  right: 57%;
+  
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+  }
+}
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
