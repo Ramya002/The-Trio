@@ -11,6 +11,19 @@ body {
   background-repeat:no-repeat;
   background-size:cover;
 }
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: mistyrose;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: lightblue; 
+    opacity: 0.70;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
 
 h1 {
   padding-bottom: 50px;
