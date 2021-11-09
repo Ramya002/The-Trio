@@ -12,13 +12,11 @@
 }
  body, html {
 	 height: 100%;
-	 background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200727/pngtree-vector-design-of-bluish-lights-bokeh-background-image_370357.jpg") ;
-  background-repeat:no-repeat;
-  background-size:cover;
 }
  body {
-	 background: #f9f9f9;
-	 background-size: cover;
+	 background-image: url("https://images.unsplash.com/photo-1623559472911-5ae8d1bd8060?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80") ;
+  background-repeat:no-repeat;
+  background-size:cover;
 	 margin: 0;
 	 padding: 0;
 	 font-family: helvetica, arial, tahoma, verdana;
