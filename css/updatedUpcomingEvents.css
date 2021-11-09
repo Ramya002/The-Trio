@@ -15,7 +15,7 @@
 }
  body {
 	 background-image: url("https://images.unsplash.com/photo-1623559472911-5ae8d1bd8060?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80") ;
-  background-repeat:no-repeat;
+  background-repeat:repeat;
   background-size:cover;
 	 margin: 0;
 	 padding: 0;
