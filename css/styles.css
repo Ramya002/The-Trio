@@ -42,7 +42,7 @@ body, html{
   
   .pimg1, .pimg2, .pimg3,.pimg4{
     position:relative;
-    /*opacity:0.50;*/
+    /opacity:0.50;/
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -110,7 +110,7 @@ body, html{
     position: absolute;
     top: 35%;
     right: -28%;
-    /*color: #00acee;*/
+    /color: #00acee;/
   }
 
   .in-ic{
@@ -159,7 +159,7 @@ body, html{
   .p1text{
     padding: 20px;  
     position: absolute;
-    left: 35.4%;
+    left: 36%;
     font-family: LimeLight;
     font-weight: bold;
     text-transform: capitalize;
@@ -199,6 +199,10 @@ body, html{
     padding:20px;
 	
   }
+.p1small{
+  color:#FFFADA;
+  font-weight:bold;
+}
   
   .ptext .border.trans{
     background-color:transparent;
@@ -218,14 +222,14 @@ body, html{
 
 .btn-outline-danger{
   position: absolute;
-  top: 390%;
+  top: 600%;
   right: 46%;
 }
 
 .btn-danger{
   position: absolute;
-  top: 390%;
-  right: 55%;
+  top: 600%;
+  right: 57%;
   
 }
 
